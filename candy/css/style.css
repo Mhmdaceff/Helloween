@@ -1,0 +1,143 @@
+.logo{
+    background-color:#fdfdfd;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    /* color: #fdfdfd; */
+}
+.navbar{
+    padding: 2px;
+    background-color: #111419;
+}
+.search {
+    border-radius: 30px;
+    border: none;
+    border: 1px solid  rgba(44, 44, 44, 0.334);
+    outline: none;
+}
+
+.navbar ul li a:hover{
+    filter: blur(0px);
+    color: #fe781a;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    filter: blur(1px);
+
+}
+.login-btn{
+    background-color: rgba(44, 44, 44, 0.334);
+    color: aliceblue;
+    border-radius: 50px;
+margin: 0px !important;
+    border: none;
+    padding: 10px 15px;
+}
+
+.deatils{
+margin-top:-91px ;
+
+}
+
+.home-img{
+    background-image: url("../img/halloween-background-with-scary-pumpkins-candles-bats-dark-forest-night.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px !important;
+    padding: 0px !important;
+    /* width: 100% !im/portant; */
+    height: 100vh;
+}
+#pop h4{
+ color: #fdfdfd;
+}
+span{
+    color: #fe781a;
+}
+.landing{
+    color: aliceblue;
+    font-family: monospace;
+}
+.desin{
+    background-color: white;
+    border: 3px solid gray;
+
+}
+.contant{
+padding-top: 250px !important;
+}
+.login{
+    background-color: rgba(44, 44, 44, 0.334);
+    color: aliceblue;
+    border-radius: 50px;
+    border: none;
+    padding: 20px;
+}
+.text{
+    display: flex;
+    
+}
+.cards{
+    box-shadow: 2px 2px 11px black;
+    margin: 15px 0px;
+    background-color: #eeef;
+    overflow: hidden;
+}
+.cards:hover img{
+    transform: scale( 1.08);
+}
+.cards img {
+    height: 200px;
+    width: 100%;
+    transition: 1s ease-in-out;
+}
+.card-body{
+    position: relative;
+}
+.cards-img{
+    box-shadow: 2px 2px 11px black;
+}
+.latest{
+    background-color: #eeee;
+    display: flex;
+}
+.latest h5{
+    margin: 15px;
+}
+
+.card-body button{
+    float: inline-end;
+    position: absolute;
+    right:0px;
+    color: #eeef;
+    box-shadow: 2px 2px 11px gray;
+    border: none;
+    border: 1px solid blue;
+    background-color: blue;
+}
+.follw p{
+font-size: 20px;    
+}
+footer{
+    background-color: rgb(255, 226, 194);
+}
+
+footer .social i{
+    background-color: rgba(44, 44, 44, 0.334) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main{
+    display: flex; 
+    flex-wrap: wrap;
+}
